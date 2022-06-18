@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./sidnav.css"
 
 export const Sidenav=(navshow) =>{
 
-
+  const navigate=useNavigate()
   const[style,setStyle]=useState({})
  
   const[show,setshow]=useState(false)
@@ -27,7 +28,9 @@ export const Sidenav=(navshow) =>{
            
                 <div style={{left:`${style.left}`, transition:"left 0.5s"}} className="sidebar">
                   <div className="mything">
-                    <div className="noti"><div className="one same"></div><div className="two"><p>subscription</p></div></div>
+                    <div className="noti" onClick={()=>{
+                       navigate("/subscribe")
+                    }}><div className="one same"></div><div className="two"><p>subscription</p></div></div>
                     <div className="noti"><div className="myreads same"></div><div className="two"><p>myreads</p></div></div>
                     <div className="noti"><div className="epapertwo same"></div><div className="two"><p>e-Paper</p></div></div>
                     <div className="noti"><div className="gahnti same"></div><div className="two"><p>Notification</p></div></div>

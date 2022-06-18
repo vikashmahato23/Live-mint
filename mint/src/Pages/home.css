@@ -5,22 +5,24 @@
 .home{
     position: absolute;
     background-color: rgb(246,246,246);
-  /* background-color:rgb(246,246,246); */
-    /* border: 1px solid rgb(0, 64, 255); */
+    
     height:auto;
     width: 480px;
     top: 71px;
     left: 452px;
-   z-index: -1;
+    z-index: -1; 
 
 }
+
 p{
     display: inline;
     
     font-weight: 500;
 }
+
 .smallnews{
     display: flex;
+   
     /* border: 1px solid red; */
     margin: 8px;
     width: 95%;
@@ -49,3 +51,13 @@ p{
 /* p{
     margin-top: 50px;
 } */
+
+/* 
+position: absolute;
+background-color: rgb(246,246,246);
+
+height:auto;
+width: 480px;
+top: 71px;
+left: 452px;
+z-index: 1; */
