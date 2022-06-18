@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.stilnav{
+    position: fixed;
+    background-color: rgb(247, 247, 247);
+    z-index: 1;
+   
+  /* background-color:rgb(246,246,246); */
+    /* border: 1px solid rgb(255, 0, 230); */
+    height: 600px;
+    width: 450px;
+    top: 72px;
+  
+}
+.stilsidebar{
+  /* border: 1px solid red; */
+  width: 200px;
+  height: 650px;
+  margin-left: 54%;
+
+}
+.four>div{
+  display: block;
+   margin-top: 20px;
+  /* border: 1px solid red; */
+  ;
+}
+.four>div:hover{
+  background-color: rgba(128, 128, 128, 0.351);
+  opacity: 0.7;
+}
+.seven{
+  height: 419px;
+
+  /* overflow:auto ;
+  overflow-x: hidden; */
+  border: 1px solid gray;
+  border: dotted;
+  margin-top: 5px;
+  border-left: transparent ;
+  border-right: transparent ;
+  border-bottom: transparent ;
+ 
+}
+.seven:hover{
+  overflow:auto ;
+  overflow-x: hidden;
+}
+.seven>div{
+   margin-top: 15px;
+   
+}
+.seven>div>p{
+  font-weight: 300;
+  color: rgb(14, 13, 13);
+}
+.seven>div:hover{
+  background-color: rgba(149, 148, 148, 0.059);
+}
+
+
+
