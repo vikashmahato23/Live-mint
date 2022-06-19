@@ -1,7 +1,9 @@
 import "./sub.css"
 import pay from "../Images/pay.png"
+import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 export const Subscribe=()=>{
-
+ const navigate=useNavigate()
     return (
         <div>
                <header className="header">
@@ -40,7 +42,10 @@ export const Subscribe=()=>{
                             <span><h2>Half Year</h2></span>
                             <span><h2>246/month</h2></span>
                          </div>
-                 <button className="month btn" ><p>Start your trail</p></button>
+                 <button className="month btn" onClick={()=>{
+                      navigate("/checkout")
+                 }
+               } ><p>Start your trail</p></button>
                </div>
         </div>
     )

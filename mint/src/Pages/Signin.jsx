@@ -40,15 +40,15 @@ export const Signin=()=>{
     <div className="title">Login or Register</div>
     
     <div className="container">
-     <div className="google" >       
-     <GoogleLogin
-    clientId="263064859006-ci3hm6491ejo4jmfn0v4ugoo15lfk6g5.apps.googleusercontent.com"
-    buttonText="Sign with Google"
-    style={{border:"1px solid black"}}
-    onSuccess={responseGoogle}
-    onFailure={responseGoogle}
-    cookiePolicy={'single_host_origin'}
-  /></div>
+     <div className="facebook" style={{background:"white",border:"1px solid gray"}} >       
+     <div style={{background:"white"}}>
+        <img style={{width:"20px"}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/36px-Google_%22G%22_Logo.svg.png?20210618182606" alt="" /> 
+        </div>
+        <div style={{color:"black"}}>
+    
+            Sign in with Google
+        </div>
+   </div>
      <div className="facebook">
      
      <div>
@@ -78,10 +78,4 @@ export const Signin=()=>{
     )
 }
 
-{/* <div>
-        <img src="https://accounts.hindustantimes.com/images/icfb.svg" alt="" /> 
-        </div>
-        <div>
-    
-            Sign in with Facebook
-        </div> */}
+{/*  */}
