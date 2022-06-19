@@ -29,9 +29,9 @@ const fetchData=(payload)=>{
     console.log(payload,"ddff")
      return (dispatch)=>{
          dispatch(fetchDataRequest())
-        // https://newsapi.org/v2/top-headlines?country=${payload}&apiKey=2349dc924e73400cb19b1bf9ec65bbfa
+  
      
-     Axios.get(`https://newsapi.org/v2/top-headlines?country=${payload}&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
+     Axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
          params:{
              ...payload
          }
@@ -48,11 +48,11 @@ const fetchData=(payload)=>{
 
 
 const fetchmarket=(payload)=>{
-    console.log(payload,"ddff")
+  
      return (dispatch)=>{
          dispatch(fetchDataRequest())
 
-        // https://newsapi.org/v2/everything?q=market&from=2022-06-16&sortBy=popularity&apiKey=2349dc924e73400cb19b1bf9ec65bbfa
+     
      
      Axios.get(`https://newsapi.org/v2/everything?q=market&from=2022-06-16&sortBy=popularity&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
          params:{
@@ -73,7 +73,7 @@ const fetchfor=(payload)=>{
   
      return (dispatch)=>{
          dispatch(fetchDataRequest())
-        // https://newsapi.org/v2/everything?q=weather&q=goverment&from=2022-06-16&sortBy=popularity&apiKey=2349dc924e73400cb19b1bf9ec65bbfa
+      
      Axios.get(`https://newsapi.org/v2/everything?q=weather&q=goverment&from=2022-06-16&sortBy=popularity&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
          params:{
              ...payload
@@ -88,24 +88,8 @@ const fetchfor=(payload)=>{
      }; 
 
 }
-//************************* */
-const Postuser=(payload)=>{
-    console.log(payload,"ddff")
-     return (dispatch)=>{
-         dispatch(fetchDataRequest())
-       
-     Axios.post(`http://localhost:8080/user`,payload
-     )
-     .then((r)=>{
-         console.log(r)
-         dispatch(fetchDataSuccess(r.data))})
-     .catch((e)=>{
-        
-         dispatch(fetchDataFailure(e.data))})
-     }; 
-
-}
 
 
 
-export {fetchData,fetchmarket,fetchfor,Postuser}
+
+export {fetchData,fetchmarket,fetchfor}
