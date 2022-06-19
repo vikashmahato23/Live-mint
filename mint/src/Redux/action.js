@@ -31,7 +31,8 @@ const fetchData=(payload)=>{
          dispatch(fetchDataRequest())
   
      
-     Axios.get(` http://localhost:8080/country`,{
+     Axios.get(`
+     https://newsapi.org/v2/everything?q=tesla&from=2022-05-19&sortBy=publishedAt&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
          params:{
              ...payload
          }
@@ -54,7 +55,7 @@ const fetchmarket=(payload)=>{
 
      
      
-     Axios.get(`http://localhost:8080/latest`,{
+     Axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
          params:{
              ...payload
          }
@@ -74,7 +75,7 @@ const fetchfor=(payload)=>{
      return (dispatch)=>{
          dispatch(fetchDataRequest())
       
-     Axios.get(`http://localhost:8080/latest`,{
+     Axios.get(`https://newsapi.org/v2/everything?q=apple&from=2022-06-18&to=2022-06-18&sortBy=popularity&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
          params:{
              ...payload
          }

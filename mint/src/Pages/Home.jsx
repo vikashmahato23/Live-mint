@@ -13,7 +13,10 @@ export const Home=(coun)=>{
     
         const dispatch=useDispatch()
     const[snew,setData]=useState([])
-     const data=useSelector((state)=>(state.newsData.data))
+     const data=useSelector((state)=>(state.newsData.data.articles)
+
+        )
+        console.log(data,"sdfd")
     useEffect(()=>{
         if(coun.prop=="markets"){
             dispatch(fetchmarket())
