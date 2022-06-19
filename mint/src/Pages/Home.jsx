@@ -43,8 +43,7 @@ console.log(data,"sdf")
                 zone="AM"
              }
            var n=i
-            // const date = new Date();
-            // <Moment format='MMMM Do YYYY, h:mm:ss a'>{e.publishedAt}</Moment>
+           
             return (
                 <div key={i}   onClick={()=>{
                     console.log(n)
