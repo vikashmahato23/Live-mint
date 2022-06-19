@@ -31,7 +31,7 @@ const fetchData=(payload)=>{
          dispatch(fetchDataRequest())
   
      
-     Axios.get(`https://newsapi.org/v2/top-headlines?country=us&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
+     Axios.get(` http://localhost:8080/country`,{
          params:{
              ...payload
          }
@@ -54,7 +54,7 @@ const fetchmarket=(payload)=>{
 
      
      
-     Axios.get(`https://newsapi.org/v2/everything?q=market&from=2022-06-16&sortBy=popularity&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
+     Axios.get(`http://localhost:8080/latest`,{
          params:{
              ...payload
          }
@@ -74,7 +74,7 @@ const fetchfor=(payload)=>{
      return (dispatch)=>{
          dispatch(fetchDataRequest())
       
-     Axios.get(`https://newsapi.org/v2/everything?q=weather&q=goverment&from=2022-06-16&sortBy=popularity&apiKey=2349dc924e73400cb19b1bf9ec65bbfa`,{
+     Axios.get(`http://localhost:8080/latest`,{
          params:{
              ...payload
          }

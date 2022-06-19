@@ -1,3 +1,528 @@
 {
-    "user":[]
+   
+    "country": [
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Tripp Mickle, Noam Scheiber",
+            "title": "Apple Workers at Maryland Store Vote to Unionize, a First in the U.S. - The New York Times",
+            "description": "Roughly two-thirds of employees at the store in Towson, Md., voted to join the union.",
+            "url": "https://www.nytimes.com/2022/06/18/technology/apple-union-maryland.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/06/17/business/17applevote-promo/17applevote-promo-facebookJumbo.jpg",
+            "publishedAt": "2022-06-19T02:03:50Z",
+            "content": "Ms. Reeder said that workers in Atlanta had helped prepare union supporters at the Towson store to defuse the companys talking points. We kind of got some insight from the Atlanta store on things tha… [+1427 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Jason Hanna, Rebekah Riess",
+            "title": "A Philadelphia firefighter died in a building that collapsed after a fire, and 5 other people rescued - CNN",
+            "description": "A Philadelphia firefighter has died in the collapse of a building Saturday morning in the city, a fire official said.",
+            "url": "https://www.cnn.com/2022/06/18/us/philadelphia-building-collapse/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220618065054-01-philadelphia-building-collapse-0617.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-06-19T01:40:00Z",
+            "content": "A Philadelphia firefighter died early Saturday, when a building collapsed soon after a fire there was extinguished.\r\nFour of his comrades and a city worker were pulled alive from the rubble, a fire o… [+3585 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Andrew Miller",
+            "title": "Biden National Security Adviser Jake Sullivan tests positive for COVID-19 - Fox News",
+            "description": "White House National Security Adviser Jake Sullivan has tested positive for the coronavirus but his office says that he has not been in close contact with the president.",
+            "url": "https://www.foxnews.com/politics/biden-national-security-adviser-jake-sullivan-tests-positive-covid-19",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2022/02/AP22042702781677.jpg",
+            "publishedAt": "2022-06-19T01:26:05Z",
+            "content": "White House National Security Adviser Jake Sullivan has tested positive for COVID-19, the National Security Council announced on Saturday. \r\n\"National Security Advisor Jake Sullivan tested positive t… [+2218 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Brian Stelter and Nicole Goodkind, CNN",
+            "title": "Mark Shields, political analyst on CNN and PBS 'NewsHour,' dies at 85 - CNN",
+            "description": "Mark Shields, the political sage and longtime analyst for CNN and PBS, died Saturday morning at the age of 85, the anchor of PBS NewsHour confirmed.",
+            "url": "https://www.cnn.com/2022/06/18/media/mark-shields-obit/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220618131753-02-mark-shields-obit-super-tease.jpg",
+            "publishedAt": "2022-06-19T00:20:00Z",
+            "content": "New York (CNN Business)Mark Shields, the political sage and longtime analyst for CNN and PBS, died Saturday morning at the age of 85, the anchor of PBS NewsHour confirmed.\r\nShields was well known for… [+3357 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "YouTube"
+            },
+            "author": null,
+            "title": "Tampa Bay Lightning vs. Colorado Avalanche Game 2 NHL Blocky's stream - NHL",
+            "description": "Puck and player tracking technology simulating the Stanley Cup Final Game 2 matchup between the Tampa Bay Lightning and Colorado Avalanche.Subscribe to our c...",
+            "url": "https://www.youtube.com/watch?v=7m7iak4OCkg",
+            "urlToImage": "https://i.ytimg.com/vi/7m7iak4OCkg/maxresdefault_live.jpg",
+            "publishedAt": "2022-06-19T00:19:22Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Thousands of flights canceled ahead of Father’s Day, Juneteenth - The Hill",
+            "description": null,
+            "url": "https://news.google.com/__i/rss/rd/articles/CBMicGh0dHBzOi8vdGhlaGlsbC5jb20vcG9saWN5L3RyYW5zcG9ydGF0aW9uLzM1Mjg4ODEtdGhvdXNhbmRzLW9mLWZsaWdodHMtY2FuY2VsZWQtYWhlYWQtb2YtZmF0aGVycy1kYXktanVuZXRlZW50aC_SAQA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2022-06-18T23:52:00Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "WTHR"
+            },
+            "author": "WTHR.com staff",
+            "title": "Health officials identify 1st probable case of monkeypox in Indiana - WTHR",
+            "description": "The patient remains isolated, and health officials said they are working to identify anyone the patient may have had close contact with while infectious.",
+            "url": "https://www.wthr.com/article/news/local/monkeypox-indiana-department-of-health-first-probable-case/531-3f792487-68d2-411b-8a07-f9e419cb7ffc",
+            "urlToImage": "https://media.tegna-media.com/assets/WBNS/images/c660701a-5bc7-4db6-a8aa-e6cd92c36bf8/c660701a-5bc7-4db6-a8aa-e6cd92c36bf8_1140x641.jpg",
+            "publishedAt": "2022-06-18T23:45:00Z",
+            "content": "INDIANAPOLIS The first probable case of monkeypox in Indiana this year has been identified, state health officials announced Saturday. \r\nThe Indiana Department of Health completed initial testing of … [+1621 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Islamic State claims attack on Sikh temple in Kabul that killed two - Reuters.com",
+            "description": "An attack claimed by Islamic State on a Sikh temple in the Afghan capital Kabul on Saturday killed at least two people and injured seven, officials said, another deadly incident in a spate of violence targeting minorities and places of worship.",
+            "url": "https://www.reuters.com/world/asia-pacific/blast-hits-sikh-temple-afghan-capital-kabul-temple-official-2022-06-18/",
+            "urlToImage": "https://www.reuters.com/resizer/usnhr7NyU53rcNaEaTfAP8TaTKI=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/FJNTBTVEFJJG3BHKZGKYMNZGA4.jpg",
+            "publishedAt": "2022-06-18T23:15:00Z",
+            "content": "KABUL, June 18 (Reuters) - An attack claimed by Islamic State on a Sikh temple in the Afghan capital Kabul on Saturday killed at least two people and injured seven, officials said, another deadly inc… [+3066 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Claire Colbert and Raja Razek, CNN",
+            "title": "Yellowstone River flooding is a 1 in 500-year event, US Geological Survey says - CNN",
+            "description": "The devastating flooding that occurred along the Yellowstone River this week constitutes a 1 in 500 year event, according to a US Geological Survey news release.",
+            "url": "https://www.cnn.com/2022/06/17/weather/yellowstone-river-flooding-historic/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220617141502-04-yellowstone-park-flooding-0613-super-tease.jpg",
+            "publishedAt": "2022-06-18T23:00:00Z",
+            "content": "(CNN)The devastating flooding that occurred along the Yellowstone River this week constitutes a 1 in 500-year event, according to a US Geological Survey (USGS) news release.\r\nUnprecedented rain and r… [+4488 chars]"
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": "Mike Snider",
+            "title": "Two actors in Netflix show 'The Chosen One' die in Mexico crash - USA TODAY",
+            "description": "Two actors on the Netflix series \"The Chosen One\" were killed and six others who were part of the cast and crew were injured after a crash in Mexico.",
+            "url": "https://www.usatoday.com/story/entertainment/tv/2022/06/18/netflix-actors-the-chosen-one-die-accident-mexico/7670442001/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2022/04/20/USAT/ac8feca8-daa0-4ecc-8850-8c36c36fff9b-AFP_AFP_328L8FZ.jpg?crop=5573,3135,x0,y278&width=3200&height=1801&format=pjpg&auto=webp",
+            "publishedAt": "2022-06-18T22:00:18Z",
+            "content": "Two actors on the Netflix series \"The Chosen One\" were killed and six others who were part of the cast and crew were injured after the van they were in crashed near Mulegé on the Baja California Sur … [+2317 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "TMZ"
+            },
+            "author": "TMZ Staff",
+            "title": "Camilla Parker Bowles Gets Real About Charles in New Vogue Interview - TMZ",
+            "description": "The Duchess of Cornwall lands the cover of British Vogue for the first time ever, signaling a change in public perception about her that's long been skewed toward the side of hostility and resentment.",
+            "url": "https://www.tmz.com/2022/06/18/camilla-parker-bowles-gets-real-about-charles-in-new-vogue-interview/",
+            "urlToImage": "https://imagez.tmz.com/image/1a/16by9/2022/06/18/1a7c911639bd49988e7d4398bd84652b_xl.jpg",
+            "publishedAt": "2022-06-18T21:51:00Z",
+            "content": "Camilla Parker Bowles is on her way to becoming Queen Consort -- and now, a new milestone ... landing the cover of Vogue, where she's opening up about, well, everything.\r\nThe Duchess of Cornwall sat … [+2347 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": null,
+            "title": "Kenny Atkinson will not coach Hornets, opts to stay with Golden State, sources say - Charlotte Observer",
+            "description": null,
+            "url": "https://news.google.com/__i/rss/rd/articles/CBMiUGh0dHBzOi8vd3d3LmNoYXJsb3R0ZW9ic2VydmVyLmNvbS9zcG9ydHMvY2hhcmxvdHRlLWhvcm5ldHMvYXJ0aWNsZTI2MjY2NjQ2Ny5odG1s0gEA?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2022-06-18T21:47:17Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Daily Mail"
+            },
+            "author": "Katie Hind",
+            "title": "How Jennifer Lopez was banned from using the female symbol in Super Bowl show which celebrated women - Daily Mail",
+            "description": "Superstar Jennifer Lopez has complained that she was banned from using the female gender symbol during her Super Bowl show by a 'woke' British director Hamish Hamilton.",
+            "url": "https://www.dailymail.co.uk/news/article-10930475/How-Jennifer-Lopez-banned-using-female-symbol-Super-Bowl-celebrated-women.html",
+            "urlToImage": "https://i.dailymail.co.uk/1s/2022/06/18/22/59240083-0-image-a-64_1655588593744.jpg",
+            "publishedAt": "2022-06-18T21:38:22Z",
+            "content": "As a self-made multi-millionaire superstar, Jennifer Lopez is a feminist icon who embodies womens empowerment.\r\nBut the singer has complained that she was banned from using the female gender symbol d… [+3694 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "AL.com"
+            },
+            "author": "Lee Roop | lroop@al.com",
+            "title": "Church shooting suspect was licensed gun dealer warned by federal agents about missing guns - AL.com",
+            "description": "Smith had not recorded the sale or other disposition of a firearm in the required seven days, ATF investigators determined.",
+            "url": "https://www.al.com/news/2022/06/church-shooting-suspect-was-licensed-gun-dealer-warned-by-federal-agents-about-missing-guns.html",
+            "urlToImage": "https://www.al.com/resizer/xLFFjJhe_0eZ-3DrzLUwKrn0d7A=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/B5U5NB7L7JCY5PRYGFRNXB5BEY.jpg",
+            "publishedAt": "2022-06-18T21:31:00Z",
+            "content": "Robert Findlay Smith, the man charged with killing three people in a Birmingham-area church last week, is a formerly licensed federal gun dealer cited and warned by federal authorities for failing to… [+2301 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Motorsport.com"
+            },
+            "author": "Alex Kalinauckas",
+            "title": "Canadian GP: Verstappen takes pole as Alonso stars - Motorsport.com",
+            "description": "Red Bull's Max Verstappen beat Fernando Alonso to pole position in qualifying for Formula 1's 2022 Canadian Grand Prix, with Carlos Sainz third for Ferrari.",
+            "url": "https://www.motorsport.com/f1/news/canadian-gp-verstappen-takes-pole-from-alonso-sainz/10324707/",
+            "urlToImage": "https://cdn-1.motorsport.com/images/amp/6gpPBx70/s6/formula-1-canadian-gp-2022-pol-3.jpg",
+            "publishedAt": "2022-06-18T21:22:42Z",
+            "content": "Rain falling throughout the day in Montreal meant qualifying took place in similar wet conditions to FP3 earlier on Saturday afternoon, which Alonso led.\r\nThe Alpine driver stunned Sainz to slot into… [+4708 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Daily News"
+            },
+            "author": "Thomas Tracy",
+            "title": "Florida woman arrested for anti-Asian pepper-spray attack: NYPD - New York Daily News",
+            "description": "Cops in Chelsea took Madeline Barker, 47, into custody Friday after they recognized her as the woman in the bias-fueled June 11 attack, a police spokeswoman said.",
+            "url": "https://www.nydailynews.com/new-york/nyc-crime/ny-florida-woman-arrested-for-asian-hate-crime-20220618-3imzvrrtbrcejbeahpjs22lkaq-story.html",
+            "urlToImage": "https://www.nydailynews.com/resizer/EtH7DnTJW_l4flTnCk3UiNrWxSE=/1200x630/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/tronc/T6XHCXD6SVAN7E2OWU7OLSNBIA.jpg",
+            "publishedAt": "2022-06-18T21:17:00Z",
+            "content": "A Florida woman has been busted for pepper-spraying four young Asian women during a caught-on-camera clash in Manhattan, police said Saturday.\r\nCops in Chelsea took Madeline Barker, 47, into custody … [+2303 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NASASpaceflight.com"
+            },
+            "author": "William Graham",
+            "title": "SpaceX to launch Globalstar satellite on mysterious Falcon 9 mission - NASASpaceFlight.com - NASASpaceflight.com",
+            "description": "SpaceX will launch its Falcon 9 rocket on a secretive mission in the early hours…",
+            "url": "https://www.nasaspaceflight.com/2022/06/spacex-globalstar-falcon-9/",
+            "urlToImage": "https://www.nasaspaceflight.com/wp-content/uploads/2022/06/new-lead-2.jpg",
+            "publishedAt": "2022-06-18T21:00:02Z",
+            "content": "SpaceX will launch its Falcon 9 rocket on a secretive mission in the early hours of Sunday morning. Liftoff is planned for 12:27 AM EDT (04:27 UTC) from Space Launch Complex 40 of the Cape Canaveral … [+10397 chars]"
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": "Joshua Oliver",
+            "title": "Bitcoin drops below key $20000 threshold - Financial Times",
+            "description": "Crisis in digital assets deepens as crypto market benchmark falls sharply",
+            "url": "https://www.ft.com/content/97b5a774-d817-4d3b-82b2-6bbe22c3d59b",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F5b9d878d-08ab-42fa-a0ee-b54a285e0235.jpg?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2022-06-18T20:58:56Z",
+            "content": "Bitcoin’s price has broken below the key threshold of $20,000 for the first time since November 2020, risking triggering a fresh wave of selling and deepening the crisis gripping the digital asset se… [+3012 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Page Six"
+            },
+            "author": "Jessica Bennett",
+            "title": "Rebel Wilson and girlfriend Ramona Agruma stroll Italy hand-in-hand - Page Six",
+            "description": "The “Pitch Perfect” actress wrote “🇮🇹 ciao bellas 🇮🇹 ” beside the sweet snap while girlfriend Agruma captioned her pic “Bella Italia 🇮🇹.”",
+            "url": "https://pagesix.com/2022/06/18/rebel-wilson-and-girlfriend-ramona-agruma-stroll-italy-hand-in-hand/",
+            "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2022/06/rebel-wilson-ramona-agruma-00.jpg?quality=75&strip=all&w=1200",
+            "publishedAt": "2022-06-18T20:46:00Z",
+            "content": "Rebel Wilson is spending quality time with girlfriend Ramona Agruma this weekend, as they both shared romantic shots of themselves strolling through Sardinia, Italy, hand-in-hand. \r\nIn snaps posted b… [+1588 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Daily Beast"
+            },
+            "author": "Alan Halaly",
+            "title": "CDC Director Signs Off on COVID-19 Vaccines For Children Older Than Six Months - The Daily Beast",
+            "description": "The decision follows the CDC’s Advisory Committee on Immunization Practices unanimous vote to recommend vaccines for young children.",
+            "url": "https://www.thedailybeast.com/cdc-director-rochelle-walensky-signs-off-on-covid-19-vaccines-for-children-older-than-six-months",
+            "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_3375,w_6000,x_0,y_305/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1655581706/GettyImages-1333345431_mycpzl",
+            "publishedAt": "2022-06-18T20:45:57Z",
+            "content": "CDC Director Rochelle Walensky gave her seal of approval on COVID-19 vaccines for everyone 6 months or older on Saturday, meaning children can immediately begin to get vaccinated. The decision follow… [+785 chars]"
+        }
+    ],
+
+    "latest": [
+        {
+            "source": {
+                "id": null,
+                "name": "Lifehacker.com"
+            },
+            "author": "Stephen Johnson",
+            "title": "8 of the Most Consequential Bear Markets in U.S. History (and What We Can Learn From Them)",
+            "description": "As of this week, we are officially in a bear market. The S&P 500 has lost more than 20% of its value, with some tech stocks taking a much more severe beating than that—Netflix is tanking and Amazon’s stock has dropped nearly 40%.Read more...",
+            "url": "https://lifehacker.com/8-of-the-most-consequential-bear-markets-in-u-s-histor-1849068363",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/08a79f5f7bcf6c53f48d515df3545771.jpg",
+            "publishedAt": "2022-06-16T14:00:00Z",
+            "content": "The economic downturn of the late 2000s was the worst since the Great Depression. A congressional committee subsequently determined the cause was mainly a lack of regulation of the packaging and sale… [+1106 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "Amrita Khalid",
+            "title": "Crypto lender Celsius is being investigated by multiple states after transactions freeze",
+            "description": "Crypto lender Celsius Network opted to freeze customer withdrawals and other transactions on Sunday, leaving its nearly two million users unable to access their funds. Now, state security boards in Alabama, Kentucky, New Jersey, Texas and Washington have laun…",
+            "url": "https://www.engadget.com/celsius-network-freeze-state-securities-board-investigation-231238212.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-06/46f0cc30-ec69-11ec-af5f-6e1e41f80e8e",
+            "publishedAt": "2022-06-16T23:12:38Z",
+            "content": "Crypto lender Celsius Network opted to freeze customer withdrawals and other transactions on Sunday, leaving its nearly two million users unable to access their funds. Now, state security boards in A… [+1785 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Reece Rogers",
+            "title": "What Is Energy Star and How Does It Save You Money?",
+            "description": "WIRED spoke with the Environmental Protection Agency to learn more about the government’s energy efficiency program.",
+            "url": "https://www.wired.com/story/energy-star-program-explainer/",
+            "urlToImage": "https://media.wired.com/photos/62ace310ab6eba7567c17631/191:100/w_1280,c_limit/Energy-Star-Explainer-Gear-Alamy-2B134B2.jpg",
+            "publishedAt": "2022-06-18T12:00:00Z",
+            "content": "Using less electricity is good for the environment, and its good for your pocketbook when those utility bills roll around. The next time youre buying a computer, refrigerator, or TV, you may see an E… [+3021 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Matt Jancer",
+            "title": "27 Last-Minute Father’s Day Deals",
+            "description": "It's late, but not too late. Hurry up and snag a killer gift on these smartwatches, headphones, and more.",
+            "url": "https://www.wired.com/story/last-minute-fathers-day-deals-2022-2/",
+            "urlToImage": "https://media.wired.com/photos/61687b2b58660fcbc5f4ec12/191:100/w_1280,c_limit/Gear-Sonos-Roam-white-SOURCE-SONOS.jpg",
+            "publishedAt": "2022-06-18T17:01:00Z",
+            "content": "Relax and take a deep breath. There's still time to find Dad a gift. And not just any gift, like a tie or a boring wallet, but a gift that he'll cherish and talk about for years to come. You just hav… [+9435 chars]"
+        },
+        {
+            "source": {
+                "id": "wired",
+                "name": "Wired"
+            },
+            "author": "Arielle Pardes",
+            "title": "After Layoffs, Crypto Startups Face a ‘Crucible Moment’",
+            "description": "The hard times could be a harbinger for everyone else.",
+            "url": "https://www.wired.com/story/coinbase-crypto-startup-layoffs-economy/",
+            "urlToImage": "https://media.wired.com/photos/62aa719b8de60893637127a1/191:100/w_1280,c_limit/CryptoAxe2.png",
+            "publishedAt": "2022-06-16T22:33:08Z",
+            "content": "In May, the venture capital firm Sequoia circulated a memo among its startup founders. The 52-page presentation warned of a challenging road ahead, paved by inflation, rising interest rates, a Nasdaq… [+3168 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Dana Goldstein",
+            "title": "States Address Child Care Shortages After Federal Efforts Stalled",
+            "description": "Federal legislation has stalled, so states are stepping in. In some places, that could mean looser regulations, like 16-year-olds caring for children, without supervision.",
+            "url": "https://www.nytimes.com/2022/06/18/us/child-care-state-regulations.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/06/18/us/18childcare01/18childcare01-facebookJumbo.jpg",
+            "publishedAt": "2022-06-18T09:00:14Z",
+            "content": "Child advocacy organizations opposed the measure, saying it would compromise safety and quality. Xanna Burg, director of Kids Count Montana, said the state should instead subsidize higher wages for c… [+1786 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "Ron Lieber",
+            "title": "How to Think About E.S.G. Investing in a Falling Market",
+            "description": "Mr. Musk trashed E.S.G. investing. The S.E.C. is investigating Goldman Sachs’s move into the sector. In a falling market, what should investors consider?",
+            "url": "https://www.nytimes.com/2022/06/18/your-money/esg-investing-stocks-elon-musk.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/06/18/business/18money-1/18money-1-facebookJumbo.jpg",
+            "publishedAt": "2022-06-18T07:00:11Z",
+            "content": "And I view it as fulfillment of a fiduciary obligation. Assets arent being managed to the greatest interest of beneficiaries if, in fact, they cant breathe or life is too dangerous at the end of thei… [+1440 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": "The New York Times",
+            "title": "Markets Post Tentative Gains After a Week of Deep Losses",
+            "description": "Stocks rose on Friday, regaining some ground at the end of a tumultuous week in which Wall Street slipped into a bear market. Follow business updates.",
+            "url": "https://www.nytimes.com/live/2022/06/17/business/economy-news-inflation-stocks",
+            "urlToImage": "https://static01.nyt.com/images/2022/06/17/multimedia/17stocks/17stocks-facebookJumbo.jpg",
+            "publishedAt": "2022-06-17T12:23:45Z",
+            "content": "A letter sent by some SpaceX employees said the public behavior and tweeting of Elon Musk, above, was a frequent source of distraction and embarrassment.Credit...Jim Watson/Agence France-Presse Getty… [+3287 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Times"
+            },
+            "author": null,
+            "title": "How Houston Is Overhauling Homelessness and More: The Week in Narrated Articles",
+            "description": "Five articles from around The Times, narrated just for you.",
+            "url": "https://www.nytimes.com/2022/06/17/podcasts/narrated-articles.html",
+            "urlToImage": "https://static01.nyt.com/images/2022/06/01/multimedia/00HW-HOMEHOUSTON6/merlin_206651151_4932d911-e21e-4f92-8e3d-ff4dbcea96e4-facebookJumbo.jpg",
+            "publishedAt": "2022-06-17T14:32:33Z",
+            "content": "Abortion has seized the United States attention anew with the prospect that, as early as this month, the Supreme Court could overturn Roe v. Wade, the decision that has made the procedure terminating… [+903 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Cosmetics maker Revlon files for bankruptcy in US",
+            "description": "The 90-year-old firm says supply chain disruptions have driven up the cost of raw materials.",
+            "url": "https://www.bbc.co.uk/news/business-61835796",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/CC79/production/_125454325_gettyimages-1403319931.jpg",
+            "publishedAt": "2022-06-17T03:43:52Z",
+            "content": "Cosmetics maker Revlon has filed for bankruptcy in the US, as it says supply chain disruptions have driven up the cost of raw materials for its products.\r\nThe 90-year-old firm says it has also been s… [+2414 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Football shirts: 'People put such value on these bits of polyester'",
+            "description": "Football shirt-collecting is booming. Why do some people seem to love the tops as much as the game?",
+            "url": "https://www.bbc.co.uk/news/uk-england-61322455",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/BDD2/production/_125449584_1-webheaderhorizontal.jpg",
+            "publishedAt": "2022-06-17T02:40:03Z",
+            "content": "By Simon ArmstrongBBC News\r\nFootball shirt-collecting is surging in popularity and as a consequence prices are spiralling. Why do these tops inspire such interest - and could pressure to impress on s… [+8032 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Desmond Lachman for CNN Business Perspectives",
+            "title": "Opinion: The Fed's rate hike will be a disaster",
+            "description": "One reason to think that the Fed's shift to a more hawkish policy stance could bring on a recession is that it has already caused the asset and credit market bubbles it created last year to burst.",
+            "url": "https://www.cnn.com/2022/06/16/perspectives/fed-interest-rate-hike-economy-recession/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220615143438-05-jerome-powell.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-06-16T15:02:35Z",
+            "content": "Editors Note: Desmond Lachman is a senior fellow at the American Enterprise Institute. He was a deputy director in the International Monetary Funds Policy Development and Review Department and the ch… [+3163 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Luke McGee, CNN",
+            "title": "Ukraine's bid to join EU gets major boost as executive backs candidacy",
+            "description": "Ukraine's bid to join the European Union received a major boost on Friday morning, after the bloc's executive said it believed the country should be formally considered for candidate status in the wake of Russia's invasion.",
+            "url": "https://www.cnn.com/2022/06/17/europe/eu-commission-endorses-ukraine-candidacy-intl/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220616125231-zelensky-macron-olaf-mario-super-tease.jpg",
+            "publishedAt": "2022-06-17T10:10:16Z",
+            "content": "(CNN)Ukraine's bid to join the European Union received a major boost on Friday morning, after the bloc's executive said it believed the country should be formally considered for candidate status in t… [+4026 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Melanie Radzicki McManus",
+            "title": "Do you really need a specific athletic shoe for every sport? Experts weigh in",
+            "description": "Not all that long ago, people owned one generic pair of gym shoes, which they used for all sports and activities. Those days are long gone. Athletic footwear is a $16 billion business in the United States today. That figure is expected to grow rapidly over th…",
+            "url": "https://www.cnn.com/2022/06/17/health/how-to-choose-athletic-shoes-wellness/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220616033030-01-how-to-choose-athletic-shoes-wellness-restricted.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2022-06-17T15:00:42Z",
+            "content": "Editors Note: Before beginning any new exercise program, consult your doctor. Stop immediately if you experience pain.\r\nNot all that long ago, people owned one generic pair of gym shoes, which they u… [+5719 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Opinion by Roy Schwartz",
+            "title": "Opinion: Why Lego is the best toy ever invented",
+            "description": "Lego was my favorite toy as a kid. My best friend and I would spend countless hours crouched over a giant pile of bricks, using our own Lego language -- hundreds of names for hundreds of different pieces -- to communicate which one we needed and what we were …",
+            "url": "https://www.cnn.com/2022/06/18/opinions/lego-90th-anniversary-toys-schwartz/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220617144816-02-lego-brick-super-tease.jpg",
+            "publishedAt": "2022-06-18T16:00:25Z",
+            "content": "Roy Schwartz is a pop culture historian and critic. Follow him on Twitter, Instagram and Facebook and at royschwartz.com. The views expressed here are his own. View more opinion at CNN. \r\n (CNN)Lego … [+6798 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Opinion by Katherine Yao and Megan L. Ranney",
+            "title": "The danger of period-tracking apps in post-Roe world",
+            "description": "Katherine Yao and Megan Ranney write that consumers and privacy experts alike are concerned that data gathered by period-tracking and other digital health apps could be used to prosecute women who seek or have abortions in the event that Roe v. Wade is overtu…",
+            "url": "https://www.cnn.com/2022/06/16/opinions/period-trackers-app-roe-abortion-ranney-yao/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220616122204-period-tracker-app-stock-super-tease.jpg",
+            "publishedAt": "2022-06-16T21:51:44Z",
+            "content": "Katherine Yao is a writer who studies molecular biochemistry and English at Yale University. Megan Ranney, MD, MPH, is a professor of emergency medicine and academic dean at the School of Public Heal… [+7634 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "'What are we supposed to feed our babies?'",
+            "description": "As the US grapples with a formula crisis, parents are turning to the black market for supplies.",
+            "url": "https://www.bbc.co.uk/news/business-61752799",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/AF22/production/_125343844_whatsubject.jpg",
+            "publishedAt": "2022-06-18T23:30:17Z",
+            "content": "Mum Lauren Galvin needed to get extra milk into her baby. He was spitting up so much after nursing that he wasn't gaining weight and had to be taken to hospital, twice.\r\nBut, with the US in the grips… [+6723 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Scraps of stale bread are keeping Afghans alive",
+            "description": "Falling incomes and soaring prices under the Taliban have left many struggling to feed themselves.",
+            "url": "https://www.bbc.co.uk/news/world-asia-61805862",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/07BE/production/_125428910_hashmatullahbbc.png",
+            "publishedAt": "2022-06-16T01:03:43Z",
+            "content": "By Secunder KermaniBBC News, Kabul\r\nOn a market stall in front of a blue-domed mosque in Kabul, large orange sacks are filled with stale, leftover naan bread. \r\nIt's usually fed to animals, but now, … [+3889 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "African brain drain: '90% of my friends want to leave'",
+            "description": "A new survey reveals 52% of young Africans are considering emigrating - some of them told the BBC why.",
+            "url": "https://www.bbc.co.uk/news/world-africa-61795026",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6149/production/_125450942_gettyimages-1295200202.jpg",
+            "publishedAt": "2022-06-18T00:09:25Z",
+            "content": "By Cecilia MacaulayBBC News\r\nA new survey of more than 4,500 young people in Africa, aged 18-24, has found that 52% of them are likely to consider emigrating in the next few years, citing economic ha… [+6142 chars]"
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": "Beth Mole",
+            "title": "As US crawls out of baby formula crisis, troubled plant floods, shuts down again",
+            "description": "The latest data finds about 24 percent of infant formula products still out of stock.",
+            "url": "https://arstechnica.com/science/2022/06/as-us-crawls-out-of-baby-formula-crisis-troubled-plant-floods-shuts-down-again/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/05/GettyImages-1240647400-760x380.jpeg",
+            "publishedAt": "2022-06-16T22:03:02Z",
+            "content": "Enlarge/ The Abbott manufacturing facility in Sturgis, Michigan, on May 13, 2022. \r\n2 with 2 posters participating\r\nAs the US struggles to recover from a dire infant formula shortage, the Abbott form… [+3417 chars]"
+        }
+    ]
 }
